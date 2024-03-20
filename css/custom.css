@@ -1,0 +1,67 @@
+/**---------------------------------------header---------------------------------------*/
+
+.bg-gradient-dark-transparent {
+    background: #000;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.10) 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+.tp-static-layers {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.slider-bg {
+    -webkit-clip-path: ellipse(110% 90% at 50% 0%);
+    clip-path: ellipse(110% 90% at 50% 0%);
+}
+
+a.navbar-brand {
+    width: 9%;
+}
+
+header .navbar-brand img {
+    max-height: 100%;
+}
+
+.slider-bg {
+    -webkit-clip-path: ellipse(110% 90% at 50% 0%);
+    clip-path: ellipse(110% 90% at 50% 0%);
+}
+
+/**---------------------------------------footer---------------------------------------*/
+
+.footer-bg {
+    -webkit-clip-path: ellipse(100% 100% at 50% 100%);
+    clip-path: ellipse(100% 100% at 50% 100%);
+}
+
+footer .footer-logo img {
+    max-height: 80%;
+}
+
+.footer-dark a:hover, .footer-light a:hover, .footer-navbar li a:hover {
+    color: #e02a26;
+}
+
+.bluenight__color:hover{
+    color: #e02a26 !important;
+}
+
+.zorbeyproduction__color:hover{
+    color:#44934c !important;
+}
+
+/**---------------------------------------home---------------------------------------*/
+
+.btn-link.text-base-color, .text-base-color {
+    color: #44934c;
+}
+
+.star__bg--color {
+    background-color: #db1222;
+}
+
+.text__customer--color {
+    color: #fff;
+}
