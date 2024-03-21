@@ -29,6 +29,11 @@ header .navbar-brand img {
     clip-path: ellipse(110% 90% at 50% 0%);
 }
 
+header .navbar [class*=col-] {
+    display: flex;
+    align-items: center;
+}
+
 /**---------------------------------------footer---------------------------------------*/
 
 .footer-bg {
@@ -68,4 +73,59 @@ footer .footer-logo img {
 
 /**---------------------------------------responsive---------------------------------------*/
 
-/*?---------------------------------------1440px---------------------------------------*/
+/*?---------------------------------------1455px---------------------------------------*/
+
+@media (max-width: 1455px) {
+
+    .responsive__contact--df{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .center-logo .navbar-brand {
+        position: absolute;
+        left: 51%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        transition: none;
+    }
+
+    a.navbar-brand {
+        width: 13%;
+    }
+
+}
+
+/*?---------------------------------------1230px---------------------------------------*/
+
+@media (max-width: 1230px) {
+
+    .center-logo .navbar-brand {
+        position: absolute;
+        left: 51.5%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        transition: none;
+    }
+
+}
+
+/*?---------------------------------------1090px---------------------------------------*/
+
+@media (max-width: 1090px) {
+
+    a.navbar-brand {
+        width: 11%;
+    }
+
+    header .navbar [class*=col-] {
+        padding: 0 0px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+}
