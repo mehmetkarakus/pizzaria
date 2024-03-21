@@ -71,6 +71,16 @@ footer .footer-logo img {
     color: #fff;
 }
 
+/**---------------------------------------about---------------------------------------*/
+
+.bg-base-color {
+    background-color: #44934c;
+}
+
+.about__text--number.appear {
+    color: #db1222;
+}
+
 /**---------------------------------------menu---------------------------------------*/
 
 .menu__icon--df {
