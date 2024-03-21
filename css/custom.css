@@ -179,6 +179,18 @@ footer, section {
 
 }
 
+/*?---------------------------------------650px---------------------------------------*/
+
+@media (max-width: 650px) {
+
+    .footer-bg {
+        -webkit-clip-path: ellipse(100% 100% at 50% 100%);
+        clip-path: ellipse(100% 100% at 50% 85%);
+    }
+
+
+}
+
 /*?---------------------------------------550px---------------------------------------*/
 
 @media (max-width: 550px) {
@@ -186,6 +198,14 @@ footer, section {
     a.navbar-brand {
         width: 35%;
     }
+
+    .qr-menu__logo--tp{
+        top: 45px !important;
+        padding: 0 !important;
+        position: relative !important;
+        left: 17.5% !important;
+    }
+
 
 }
 
