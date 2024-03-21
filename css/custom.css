@@ -45,21 +45,24 @@ footer .footer-logo img {
     max-height: 80%;
 }
 
-.footer-dark a:hover, .footer-light a:hover, .footer-navbar li a:hover {
+.footer-dark a:hover,
+.footer-light a:hover,
+.footer-navbar li a:hover {
     color: #e02a26;
 }
 
-.bluenight__color:hover{
+.bluenight__color:hover {
     color: #e02a26 !important;
 }
 
-.zorbeyproduction__color:hover{
-    color:#44934c !important;
+.zorbeyproduction__color:hover {
+    color: #44934c !important;
 }
 
 /**---------------------------------------home---------------------------------------*/
 
-.btn-link.text-base-color, .text-base-color {
+.btn-link.text-base-color,
+.text-base-color {
     color: #44934c;
 }
 
@@ -91,7 +94,8 @@ footer .footer-logo img {
 
 /**---------------------------------------blog-detail-1---------------------------------------*/
 
-footer, section {
+footer,
+section {
     padding-top: 210px;
     padding-bottom: 110px;
 }
@@ -102,7 +106,7 @@ footer, section {
 
 @media (max-width: 1455px) {
 
-    .responsive__contact--df{
+    .responsive__contact--df {
         display: flex !important;
         flex-direction: column !important;
         align-items: center !important;
@@ -199,14 +203,41 @@ footer, section {
         width: 35%;
     }
 
-    .qr-menu__logo--tp{
+    .qr-menu__logo--tp {
         top: 45px !important;
         padding: 0 !important;
         position: relative !important;
         left: 17.5% !important;
     }
 
+    .qr-menu__list--pd {
+        padding: 50px !important;
+    }
 
+    .qr-menu__slider--pd {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+
+    .qr-menu__list--gr {
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        gap: 50px;
+    }
+
+    .qr-menu__list--bg-color {
+        background-color: #021933;
+        width: 100%;
+        height: 100% !important;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .qr-menu__list--text-color{
+        color: #fff;
+        margin-bottom: 0 !important;
+    }
 }
 
 /*?---------------------------------------431px---------------------------------------*/
