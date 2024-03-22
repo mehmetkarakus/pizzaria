@@ -257,6 +257,10 @@ section {
     .center-logo .navbar-toggler {
         margin: 31px;
     }
+
+    .qr-menu__header--bg-color{
+        background-color: #db122257;
+    }
 }
 
 /*?---------------------------------------431px---------------------------------------*/
