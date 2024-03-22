@@ -298,3 +298,17 @@ section {
     }
 
 }
+
+/*?---------------------------------------375px---------------------------------------*/
+
+@media (max-width: 375px) {
+
+    .qr-menu__list--text-color {
+        color: #fff;
+        margin-bottom: 0 !important;
+        font-size: 28px;
+    }
+
+}
+
+
