@@ -92,6 +92,25 @@ footer .footer-logo img {
     align-items: center;
 }
 
+/*
+.pages__menu--title{
+    display: grid !important;
+    grid-template-columns: repeat(2, 2fr);
+    margin-bottom: 30px;
+}
+
+.pages__menu--size {
+    display: grid !important;
+    grid-template-columns: repeat(3, 2fr);
+    justify-items: center;
+}
+
+.pizza__small {
+    display: flex;
+    flex-direction: column;
+}
+*/
+
 /**---------------------------------------blog-detail-1---------------------------------------*/
 
 footer,
