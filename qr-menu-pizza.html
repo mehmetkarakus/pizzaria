@@ -31,16 +31,46 @@
             
         <nav class="navbar navbar-expand-lg header-dark bg-gradient-dark-transparent center-logo disable-fixed">
             <div class="container-fluid">
-                <div class="col-12 menu-logo justify-content-center bg-gradient-dark-transparent">
-                    <a class="navbar-brand qr-menu__logo--tp" href="index.html">
+                <div class="col-auto col-lg-2 menu-logo justify-content-center">
+                    <div class="d-none d-lg-block"> 
+                        <div class="alt-font fs-19 lg-fs-16 widget-text fw-600 responsive__contact--df">
+                            <span class="w-50px h-50px bg-black-transparent-light d-inline-block align-middle text-center me-10px border-radius-100px fs-17 lh-44 lg-me-5px lg-w-40px lg-h-40px lg-fs-15 lg-lh-36"><i class="feather icon-feather-phone-call"></i></span>
+                            <a href="tel:905077854545" class="text-white header__phone--fs fs-14">+90 507 785 45 45</a>
+                        </div>
+                    </div> 
+                    <a class="navbar-brand" href="demo-pizza-parlor.html">
                         <img src="images/logo/logo-white.svg" data-at2x="images/logo/logo-white.svg" alt="" class="default-logo">
                         <img src="images/logo/logo-white.svg" data-at2x="images/logo/logo-white.svg" alt="" class="alt-logo">
                         <img src="images/logo/logo-white.svg" data-at2x="images/logo/logo-white.svg" alt="" class="mobile-logo">
                     </a>   
                 </div>
+                <div class="col-auto col-lg-8 menu-order">
+                    <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-line"></span>
+                        <span class="navbar-toggler-line"></span>
+                        <span class="navbar-toggler-line"></span>
+                        <span class="navbar-toggler-line"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">  
+                        <ul class="navbar-nav navbar-left justify-content-center alt-font"> 
+                            <li class="nav-item"><a href="qr-menu.html" class="nav-link">Menü</a></li>
+                            <li class="nav-item"><a href="qr-menu-hamburger.html" class="nav-link">Hamburger</a></li>
+                            <li class="nav-item"><a href="qr-menu-makarna.html" class="nav-link">Makarna</a></li>
+                            <li class="nav-item"><a href="qr-menu-icecek.html" class="nav-link">İçerik</a></li> 
+                        </ul> 
+                    </div>
+                </div> 
+                <div class="col-auto col-lg-2 justify-content-center">
+                    <div class="d-none d-lg-block"> 
+                        <div class="alt-font fs-19 lg-fs-16 widget-text fw-600 responsive__contact--df">
+                            <span class="w-50px h-50px bg-black-transparent-light d-inline-block align-middle text-center me-10px border-radius-100px fs-17 lh-44 lg-me-5px lg-w-40px lg-h-40px lg-fs-15 lg-lh-36"><i class="bi bi-envelope"></i></span>
+                            <a href="tel:905077854545" class="text-white header__phone--fs fs-14">info@pizzariatr.com</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </nav>
-        
+        <!-- end navigation -->
     </header>
     
     <section class="page-title-separate-breadcrumbs bg-dark-gray cover-background qr-menu__slider--pd" style="background-image: url(images/menu/banner.jpg)">
@@ -55,85 +85,166 @@
         </div>
     </section>
     
-    <section class="bg-very-light-gray position-relative overlap-height">
+    <section class="qr-menu__list--pd">
         <div class="container">
-            <div class="position-absolute fs-275 lg-fs-250 xs-fs-180 fw-600 ls-minus-10px text-uppercase text-white alt-font left-0px right-0px text-center bottom-minus-100px xs-bottom-minus-50px d-none d-sm-block">Menü</div>
-            
-            <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 mb-6 md-mb-8 xs-mb-0 justify-content-center" data-anime='{ "el": "childs", "translateY": [15, 0], "opacity": [0,1], "duration": 600, "delay": 100, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                <div class="col text-center transition-inner-all md-mb-30px">
-                    
-                    <div class="services-box-style-04 hover-box last-paragraph-no-margin border-radius-4px overflow-hidden position-relative ps-20px pe-20px lg-ps-10px lg-pe-10px pt-30px pb-40px box-shadow-extra-large-hover qr-menu--detail--gr">
-                        <div class="mb-5px">
-                            <img src="images/home/menu-1.png" alt="" data-bottom-top="transform: rotate(15deg)" data-top-bottom="transform:rotate(-15deg)">
-                        </div>
-                        <div class="box-overlay bg-white z-index-minus-1"></div>
-                        <div>
-                            <div class="fs-20 lh-34 alt-font text-dark-gray text-uppercase">Margarita Pizza</div>
-                            <span class="fs-24 fw-700 alt-font ls-minus-1px text-dark-gray">400.00₺</span>
-                        </div>
-                    </div>
-                     
-                </div>
-
-                <div class="col text-center transition-inner-all md-mb-30px">
-                    <!-- start services box style --> 
-                    <div class="services-box-style-04 hover-box last-paragraph-no-margin border-radius-4px overflow-hidden position-relative ps-20px pe-20px lg-ps-10px lg-pe-10px pt-30px pb-40px box-shadow-extra-large-hover">
-                        <div class="mb-5px">
-                            <img src="images/home/menu-2.png" alt="" data-bottom-top="transform: rotate(-15deg)" data-top-bottom="transform:rotate(15deg)">
-                        </div>
-                        <div class="box-overlay bg-white z-index-minus-1"></div>
-                        <div>
-                            <div class="star__bg--color border-radius-4px mb-10px overflow-hidden d-inline-flex">
-                                <div class="review-star-icon review-star-icon-white fs-17 ps-15px pe-15px lh-36 align-self-center">
-                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <ul class="pricing-table-style-11 mb-0 md-ps-0 md-pe-0" data-anime='{ "el": "childs", "translateX": [-30,0], "opacity": [0,1], "duration": 800, "delay": 100, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                        <li class="last-paragraph-no-margin border-0 border-bottom border-dashed border-color-extra-medium-gray"> 
+                            <div class="align-items-center w-100 d-block d-sm-flex text-center text-sm-start">
+                                <div class="col-auto position-relative me-25px xs-me-0 xs-mb-15px">
+                                    <span class="position-relative d-inline-block"><img src="images/home/menu-5.webp" class="rounded-circle" alt=""></span></span>
                                 </div>
-                                <span class="text-white fs-17 lh-34 alt-font fw-500 bg-dark-gray ps-10px pe-10px">4.9</span>
-                            </div>
-                            <div class="fs-20 lh-34 text-dark-gray alt-font text-uppercase">Marinara Pizza</div>
-                            <span class="fs-24 fw-700 alt-font ls-minus-1px text-dark-gray"><del class="me-10px text-base-color">550.00₺</del>430.00₺</span>
-                        </div>
-                    </div>
-                    <!-- end services box style --> 
-                </div>
-                <div class="col text-center transition-inner-all sm-mb-30px">
-                    <!-- start services box style --> 
-                    <div class="services-box-style-04 hover-box last-paragraph-no-margin border-radius-4px overflow-hidden position-relative ps-20px pe-20px lg-ps-10px lg-pe-10px pt-30px pb-40px box-shadow-extra-large-hover">
-                        <div class="mb-5px">
-                            <img src="images/home/menu-3.png" alt="" data-bottom-top="transform: rotate(15deg)" data-top-bottom="transform:rotate(-15deg)">
-                        </div>
-                        <div class="box-overlay bg-white z-index-minus-1"></div>
-                        <div>
-                            <div class="star__bg--color border-radius-4px mb-10px overflow-hidden d-inline-flex">
-                                <div class="review-star-icon review-star-icon-white fs-17 ps-15px pe-15px lh-36 align-self-center">
-                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                <div class="col ms-auto xs-mb-10px">
+                                    <span class="item fw-600 text-dark-gray fs-20 text-uppercase alt-font">Efsane 5'li<span class="d-none d-xl-inline-block align-middle primary-font fs-12 fw-600 lh-28 text-dark-gray bg-very-light-gray text-uppercase border-radius-30px ps-15px pe-15px ms-15px"></span></span>
+                                    <p>Pizza Sosu, mozarella peyniri, sucuk, sosis</p> 
                                 </div>
-                                <span class="text-white fs-17 lh-34 alt-font fw-500 bg-dark-gray ps-10px pe-10px">5.0</span>
-                            </div>
-                            <div class="fs-20 lh-34 text-dark-gray alt-font text-uppercase">Dört Peynirli Pizza</div>
-                            <span class="fs-24 fw-700 alt-font ls-minus-1px text-dark-gray"><del class="me-10px text-base-color">520.00₺</del>400.00₺</span>
-                        </div>
-                    </div> 
-                    <!-- end services box style --> 
-                </div>
-                <div class="col text-center transition-inner-all">
-                    <!-- start services box style --> 
-                    <div class="services-box-style-04 hover-box last-paragraph-no-margin border-radius-4px overflow-hidden position-relative ps-20px pe-20px lg-ps-10px lg-pe-10px pt-30px pb-40px box-shadow-extra-large-hover">
-                        <div class="mb-5px">
-                            <img src="images/home/menu-4.png" alt="" data-bottom-top="transform: rotate(-15deg)" data-top-bottom="transform:rotate(15deg)">
-                        </div>
-                        <div class="box-overlay bg-white z-index-minus-1"></div>
-                        <div>
-                            <div class="star__bg--color border-radius-4px mb-10px overflow-hidden d-inline-flex">
-                                <div class="review-star-icon review-star-icon-white fs-17 ps-15px pe-15px lh-36 align-self-center">
-                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                                <div class="col-auto ms-25px xs-ms-0 qr-menu__pizza--size">
+                                    <div class="pizza__small">
+                                        <span class="fs-20 ls-minus-05px alt-font fw-400 text-dark-gray">Küçük Boy</span>
+                                        <span class="fs-18 ls-minus-05px alt-font fw-600 text-dark-gray">120.00₺</span>
+                                    </div>
+                                    <div class="pizza__small">
+                                        <span class="fs-20 ls-minus-05px alt-font fw-400 text-dark-gray">Orta Boy</span>
+                                        <span class="fs-18 ls-minus-05px alt-font fw-600 text-dark-gray">180.00₺</span>
+                                    </div>
+                                    <div class="pizza__small">
+                                        <span class="fs-20 ls-minus-05px alt-font fw-400 text-dark-gray">Büyük Boy</span>
+                                        <span class="fs-18 ls-minus-05px alt-font fw-600 text-dark-gray">200.00₺</span>
+                                    </div>
                                 </div>
-                                <span class="text-white fs-17 lh-34 alt-font fw-500 bg-dark-gray ps-10px pe-10px">4.3</span>
                             </div>
-                            <div class="fs-20 lh-34 text-dark-gray alt-font text-uppercase">Puglia Pizzası</div>
-                            <span class="fs-24 fw-700 alt-font ls-minus-1px text-dark-gray"><del class="me-10px text-base-color">560.00₺</del>410.00₺</span>
-                        </div>
-                    </div> 
-                    <!-- end services box style --> 
+                        </li>
+                        <li class="last-paragraph-no-margin border-0 border-bottom border-dashed border-color-extra-medium-gray"> 
+                            <div class="align-items-center w-100 d-block d-sm-flex text-center text-sm-start">
+                                <div class="col-auto position-relative me-25px xs-me-0 xs-mb-15px">
+                                    <span class="position-relative d-inline-block"><img src="images/home/menu-5.webp" class="rounded-circle" alt=""></span></span>
+                                </div>
+                                <div class="col ms-auto xs-mb-10px">
+                                    <span class="item fw-600 text-dark-gray fs-20 text-uppercase alt-font">Efsane 5'li<span class="d-none d-xl-inline-block align-middle primary-font fs-12 fw-600 lh-28 text-dark-gray bg-very-light-gray text-uppercase border-radius-30px ps-15px pe-15px ms-15px"></span></span>
+                                    <p>Pizza Sosu, mozarella peyniri, sucuk, sosis</p> 
+                                </div>
+                                <div class="col-auto ms-25px xs-ms-0 qr-menu__pizza--size">
+                                    <div class="pizza__small">
+                                        <span class="fs-20 ls-minus-05px alt-font fw-400 text-dark-gray">Küçük Boy</span>
+                                        <span class="fs-18 ls-minus-05px alt-font fw-600 text-dark-gray">120.00₺</span>
+                                    </div>
+                                    <div class="pizza__small">
+                                        <span class="fs-20 ls-minus-05px alt-font fw-400 text-dark-gray">Orta Boy</span>
+                                        <span class="fs-18 ls-minus-05px alt-font fw-600 text-dark-gray">180.00₺</span>
+                                    </div>
+                                    <div class="pizza__small">
+                                        <span class="fs-20 ls-minus-05px alt-font fw-400 text-dark-gray">Büyük Boy</span>
+                                        <span class="fs-18 ls-minus-05px alt-font fw-600 text-dark-gray">200.00₺</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="last-paragraph-no-margin border-0 border-bottom border-dashed border-color-extra-medium-gray"> 
+                            <div class="align-items-center w-100 d-block d-sm-flex text-center text-sm-start">
+                                <div class="col-auto position-relative me-25px xs-me-0 xs-mb-15px">
+                                    <span class="position-relative d-inline-block"><img src="images/home/menu-5.webp" class="rounded-circle" alt=""></span></span>
+                                </div>
+                                <div class="col ms-auto xs-mb-10px">
+                                    <span class="item fw-600 text-dark-gray fs-20 text-uppercase alt-font">Efsane 5'li<span class="d-none d-xl-inline-block align-middle primary-font fs-12 fw-600 lh-28 text-dark-gray bg-very-light-gray text-uppercase border-radius-30px ps-15px pe-15px ms-15px"></span></span>
+                                    <p>Pizza Sosu, mozarella peyniri, sucuk, sosis</p> 
+                                </div>
+                                <div class="col-auto ms-25px xs-ms-0 qr-menu__pizza--size">
+                                    <div class="pizza__small">
+                                        <span class="fs-20 ls-minus-05px alt-font fw-400 text-dark-gray">Küçük Boy</span>
+                                        <span class="fs-18 ls-minus-05px alt-font fw-600 text-dark-gray">120.00₺</span>
+                                    </div>
+                                    <div class="pizza__small">
+                                        <span class="fs-20 ls-minus-05px alt-font fw-400 text-dark-gray">Orta Boy</span>
+                                        <span class="fs-18 ls-minus-05px alt-font fw-600 text-dark-gray">180.00₺</span>
+                                    </div>
+                                    <div class="pizza__small">
+                                        <span class="fs-20 ls-minus-05px alt-font fw-400 text-dark-gray">Büyük Boy</span>
+                                        <span class="fs-18 ls-minus-05px alt-font fw-600 text-dark-gray">200.00₺</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="pricing-table-style-11 mb-0 md-ps-0" data-anime='{ "el": "childs", "translateX": [30,0], "opacity": [0,1], "duration": 600, "delay": 100, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                        <li class="last-paragraph-no-margin border-0 border-bottom border-dashed border-color-extra-medium-gray"> 
+                            <div class="align-items-center w-100 d-block d-sm-flex text-center text-sm-start">
+                                <div class="col-auto position-relative me-25px xs-me-0 xs-mb-15px">
+                                    <span class="position-relative d-inline-block"><img src="images/home/menu-5.webp" class="rounded-circle" alt=""></span></span>
+                                </div>
+                                <div class="col ms-auto xs-mb-10px">
+                                    <span class="item fw-600 text-dark-gray fs-20 text-uppercase alt-font">Efsane 5'li<span class="d-none d-xl-inline-block align-middle primary-font fs-12 fw-600 lh-28 text-dark-gray bg-very-light-gray text-uppercase border-radius-30px ps-15px pe-15px ms-15px"></span></span>
+                                    <p>Pizza Sosu, mozarella peyniri, sucuk, sosis</p> 
+                                </div>
+                                <div class="col-auto ms-25px xs-ms-0 qr-menu__pizza--size">
+                                    <div class="pizza__small">
+                                        <span class="fs-20 ls-minus-05px alt-font fw-400 text-dark-gray">Küçük Boy</span>
+                                        <span class="fs-18 ls-minus-05px alt-font fw-600 text-dark-gray">120.00₺</span>
+                                    </div>
+                                    <div class="pizza__small">
+                                        <span class="fs-20 ls-minus-05px alt-font fw-400 text-dark-gray">Orta Boy</span>
+                                        <span class="fs-18 ls-minus-05px alt-font fw-600 text-dark-gray">180.00₺</span>
+                                    </div>
+                                    <div class="pizza__small">
+                                        <span class="fs-20 ls-minus-05px alt-font fw-400 text-dark-gray">Büyük Boy</span>
+                                        <span class="fs-18 ls-minus-05px alt-font fw-600 text-dark-gray">200.00₺</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="last-paragraph-no-margin border-0 border-bottom border-dashed border-color-extra-medium-gray"> 
+                            <div class="align-items-center w-100 d-block d-sm-flex text-center text-sm-start">
+                                <div class="col-auto position-relative me-25px xs-me-0 xs-mb-15px">
+                                    <span class="position-relative d-inline-block"><img src="images/home/menu-5.webp" class="rounded-circle" alt=""></span></span>
+                                </div>
+                                <div class="col ms-auto xs-mb-10px">
+                                    <span class="item fw-600 text-dark-gray fs-20 text-uppercase alt-font">Efsane 5'li<span class="d-none d-xl-inline-block align-middle primary-font fs-12 fw-600 lh-28 text-dark-gray bg-very-light-gray text-uppercase border-radius-30px ps-15px pe-15px ms-15px"></span></span>
+                                    <p>Pizza Sosu, mozarella peyniri, sucuk, sosis</p> 
+                                </div>
+                                <div class="col-auto ms-25px xs-ms-0 qr-menu__pizza--size">
+                                    <div class="pizza__small">
+                                        <span class="fs-20 ls-minus-05px alt-font fw-400 text-dark-gray">Küçük Boy</span>
+                                        <span class="fs-18 ls-minus-05px alt-font fw-600 text-dark-gray">120.00₺</span>
+                                    </div>
+                                    <div class="pizza__small">
+                                        <span class="fs-20 ls-minus-05px alt-font fw-400 text-dark-gray">Orta Boy</span>
+                                        <span class="fs-18 ls-minus-05px alt-font fw-600 text-dark-gray">180.00₺</span>
+                                    </div>
+                                    <div class="pizza__small">
+                                        <span class="fs-20 ls-minus-05px alt-font fw-400 text-dark-gray">Büyük Boy</span>
+                                        <span class="fs-18 ls-minus-05px alt-font fw-600 text-dark-gray">200.00₺</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="last-paragraph-no-margin border-0 border-bottom border-dashed border-color-extra-medium-gray"> 
+                            <div class="align-items-center w-100 d-block d-sm-flex text-center text-sm-start">
+                                <div class="col-auto position-relative me-25px xs-me-0 xs-mb-15px">
+                                    <span class="position-relative d-inline-block"><img src="images/home/menu-5.webp" class="rounded-circle" alt=""></span></span>
+                                </div>
+                                <div class="col ms-auto xs-mb-10px">
+                                    <span class="item fw-600 text-dark-gray fs-20 text-uppercase alt-font">Efsane 5'li<span class="d-none d-xl-inline-block align-middle primary-font fs-12 fw-600 lh-28 text-dark-gray bg-very-light-gray text-uppercase border-radius-30px ps-15px pe-15px ms-15px"></span></span>
+                                    <p>Pizza Sosu, mozarella peyniri, sucuk, sosis</p> 
+                                </div>
+                                <div class="col-auto ms-25px xs-ms-0 qr-menu__pizza--size">
+                                    <div class="pizza__small">
+                                        <span class="fs-20 ls-minus-05px alt-font fw-400 text-dark-gray">Küçük Boy</span>
+                                        <span class="fs-18 ls-minus-05px alt-font fw-600 text-dark-gray">120.00₺</span>
+                                    </div>
+                                    <div class="pizza__small">
+                                        <span class="fs-20 ls-minus-05px alt-font fw-400 text-dark-gray">Orta Boy</span>
+                                        <span class="fs-18 ls-minus-05px alt-font fw-600 text-dark-gray">180.00₺</span>
+                                    </div>
+                                    <div class="pizza__small">
+                                        <span class="fs-20 ls-minus-05px alt-font fw-400 text-dark-gray">Büyük Boy</span>
+                                        <span class="fs-18 ls-minus-05px alt-font fw-600 text-dark-gray">200.00₺</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li> 
+                    </ul>
                 </div>
             </div>
         </div>

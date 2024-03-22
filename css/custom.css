@@ -211,7 +211,7 @@ section {
     }
 
     .qr-menu__list--pd {
-        padding: 50px !important;
+        padding: 50px 0 !important;
     }
 
     .qr-menu__slider--pd {
@@ -238,6 +238,25 @@ section {
         color: #fff;
         margin-bottom: 0 !important;
     }
+
+    .qr-menu--detail--gr{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+    .qr-menu__pizza--size{
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+    }
+
+    .pizza__small{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .center-logo .navbar-toggler {
+        margin: 31px;
+    }
 }
 
 /*?---------------------------------------431px---------------------------------------*/
@@ -246,6 +265,13 @@ section {
 
     a.navbar-brand {
         width: 45%;
+    }
+
+    .qr-menu__logo--tp {
+        top: 45px !important;
+        padding: 0 !important;
+        position: relative !important;
+        left: 22.5% !important;
     }
 
 }
