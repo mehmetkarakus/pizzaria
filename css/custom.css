@@ -38,6 +38,10 @@ header .navbar [class*=col-] {
     align-items: center;
 }
 
+.header__menu--color{
+    color: #000 !important;
+}
+
 /**---------------------------------------footer---------------------------------------*/
 
 .footer-bg {
@@ -84,6 +88,14 @@ footer .footer-logo img {
 
 .about__icon--bg-color{
     background-color: #f5f5dc;
+}
+
+.slider__logo--df {
+    left: 5.5%;
+}
+
+img.slider__logo--wd {
+    width: 80% !important;
 }
 
 /**---------------------------------------about---------------------------------------*/
