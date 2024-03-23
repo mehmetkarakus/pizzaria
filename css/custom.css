@@ -1,3 +1,7 @@
+body{
+    background-color: #f2f2f2 !important;
+}
+
 /**---------------------------------------header---------------------------------------*/
 
 .bg-gradient-dark-transparent {
@@ -67,11 +71,19 @@ footer .footer-logo img {
 }
 
 .star__bg--color {
-    background-color: #db1222;
+    background-color: #8e593e;
+}
+
+.point__bg-color{
+    background-color: #000;
 }
 
 .text__customer--color {
     color: #fff;
+}
+
+.about__icon--bg-color{
+    background-color: #f5f5dc;
 }
 
 /**---------------------------------------about---------------------------------------*/
