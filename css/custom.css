@@ -108,6 +108,11 @@ img.slider__logo--wd {
     color: #8e593e;
 }
 
+.row > * {
+    padding-right: 25px;
+    padding-left: 15px;
+}
+
 /**---------------------------------------menu---------------------------------------*/
 
 .menu__icon--df {
