@@ -148,6 +148,41 @@ section {
     padding-bottom: 110px;
 }
 
+/**---------------------------------------popup---------------------------------------*/
+
+.popup__pd{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.popup__bg--color{
+    background-color: #f2f2f2;
+}
+
+.popup__title{
+    color: #232323 !important;
+}
+
+.popup__color{
+    font-size: 1.8rem;
+    color: #232323 !important;
+}
+
+.popup__color:hover{
+    color: #dc3131 !important;
+}
+
+.popup__social--medya{
+    padding: 0;
+}
+
+.popup__icons--df{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
 /**---------------------------------------responsive---------------------------------------*/
 
 /*?---------------------------------------1455px---------------------------------------*/
