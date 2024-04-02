@@ -42,6 +42,10 @@ header .navbar [class*=col-] {
     color: #000 !important;
 }
 
+.slider__bg--color{
+    background-color: #f2f2f2;
+}
+
 /**---------------------------------------footer---------------------------------------*/
 
 .footer-bg {
