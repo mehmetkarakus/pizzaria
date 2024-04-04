@@ -9,6 +9,10 @@ body{
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.10) 50%, rgba(0, 0, 0, 0) 100%);
 }
 
+.header__logo{
+    display: none;
+}
+
 .tp-static-layers {
     position: absolute;
     top: 0;
@@ -146,11 +150,7 @@ img.slider__logo--wd {
 
 /**---------------------------------------blog-detail-1---------------------------------------*/
 
-footer,
-section {
-    padding-top: 210px;
-    padding-bottom: 110px;
-}
+
 
 /**---------------------------------------popup---------------------------------------*/
 
@@ -256,6 +256,10 @@ section {
 
     header .navbar-brand {
         padding: 0 0;
+    }
+
+    .mobile__slider--logo{
+        display: none;
     }
 
 }
