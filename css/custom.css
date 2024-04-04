@@ -109,6 +109,7 @@ img.slider__logo--wd {
 .menu__pizza--df{
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .menu__pizza--description{
@@ -125,6 +126,7 @@ img.slider__logo--wd {
     display: flex;
     gap: 30px;
     justify-content: space-around;
+    width: 100%;
 }
 
 .pizza__small{
