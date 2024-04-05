@@ -402,6 +402,19 @@ img.slider__logo--wd {
     .qr-menu__header--bg-color{
         background-color: #db122257;
     }
+    
+    .qr-menu__list--df{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .qr-menu__list--img{
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        width: 100%;
+    }
 }
 
 /*?---------------------------------------431px---------------------------------------*/
