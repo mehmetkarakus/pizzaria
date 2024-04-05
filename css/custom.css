@@ -300,6 +300,18 @@ img.slider__logo--wd {
         display: none;
     }
 
+    .about__description--df{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .mobile__blog--df{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
 }
 
 /*?---------------------------------------768px---------------------------------------*/
