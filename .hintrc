@@ -16,7 +16,13 @@
     "apple-touch-icons": "off",
     "meta-viewport": "off",
     "axe/parsing": "off",
-    "axe/text-alternatives": "off"
+    "axe/text-alternatives": "off",
+    "axe/structure": [
+      "default",
+      {
+        "listitem": "off"
+      }
+    ]
   },
   "browserslist": [
     "defaults",
