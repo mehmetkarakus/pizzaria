@@ -140,6 +140,10 @@ img.slider__logo--wd {
     margin-bottom: 5px;
 }
 
+.customer-comments__title--fs{
+    font-size: 2.7rem !important;
+}
+
 /**---------------------------------------about---------------------------------------*/
 
 .bg-base-color {
