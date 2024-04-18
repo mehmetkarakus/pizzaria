@@ -248,6 +248,13 @@ img.slider__logo--wd {
     font-size: 1.2rem;
 }
 
+.popup__icons--fs{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
 /**---------------------------------------responsive---------------------------------------*/
 
 .qr-menu__list--gr{
