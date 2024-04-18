@@ -145,9 +145,7 @@
       </div>
       <div class="row">
         <div class="col tab-style-02">
-          <ul
-            class="nav nav-tabs fs-20 alt-font fw-600 justify-content-center text-center mb-4 sm-mb-0 text-uppercase menu__icon--gr"
-            data-anime='{ "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+          <ul id="myTabMenu" class="nav nav-tabs fs-20 alt-font fw-600 justify-content-center text-center mb-4 sm-mb-0 text-uppercase menu__icon--gr" data-anime='{ "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
             <li class="nav-item">
               <a class="nav-link active menu__icon--df" data-bs-toggle="tab" href="#tab_first1"> <img
                   src="images/icon/icon-01-01.svg" alt="" width="55" /> La Pizza </a>
@@ -1947,6 +1945,28 @@
   <script type="text/javascript" src="js/jquery.js"></script>
   <script type="text/javascript" src="js/vendors.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Tüm tab menü öğelerini al
+      var tabMenuItems = document.querySelectorAll('#myTabMenu .nav-link');
+      
+      // Her bir tab menü öğesine tıklama olayını ekle
+      tabMenuItems.forEach(function(item) {
+          item.addEventListener('click', function(event) {
+              // Tıklanan tab menü öğesinin href attribute'unu al
+              var targetId = this.getAttribute('href');
+              
+              // Hedef bölümünü bul
+              var targetSection = document.querySelector(targetId);
+              
+              // Hedef bölümünün başına kaydır
+              if (targetSection) {
+                  targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              }
+          });
+      });
+    });
+  </script>
 </body>
 
 </html>
